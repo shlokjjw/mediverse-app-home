@@ -14,10 +14,10 @@ function Home() {
                 </div>
                 <div className="user-option">
                     <div className="user-patient">
-                        <Link to="/login">PATIENT</Link>
+                        <a href="https://mediverse.vercel.app/">PATIENT</a>
                     </div>
                     <div className="user-doctor">
-                        <Link to="/logindoc">DOCTOR</Link>
+                        <a href="https://mediverse.vercel.app/">DOCTOR</a>
                     </div>
                 </div>
             </div>
