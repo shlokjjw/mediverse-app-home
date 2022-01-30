@@ -1,0 +1,48 @@
+.Head{
+    margin: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.Logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.Routing{
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.Login{
+    padding: 10px;
+    border-radius: 24px;
+    margin-right: 10px;
+    color: #ffff;
+    padding: 5px 15px 10px 15px;
+    background-color: #18a0fa;
+    cursor: pointer;
+}
+
+.Login:hover{
+    scale: 110%;
+}
+
+.user-doctor{
+    
+}

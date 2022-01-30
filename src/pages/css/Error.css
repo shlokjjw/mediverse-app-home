@@ -1,0 +1,10 @@
+
+#error_not_allowed{
+    font-size: 20vh;
+    display: grid;
+    place-items: center;
+    margin-top: 25vh;
+    color: rgb(255, 42, 42);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(199, 134, 93);
+}

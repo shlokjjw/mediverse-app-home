@@ -1,0 +1,54 @@
+.footer{
+    margin-top: 5vh;
+}
+
+.footer-horizontal-line{
+    background-color: #19a0f9;
+    height: 2px;
+    border-radius: 50%;
+}
+
+.footer-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-left{
+    display: flex;
+}
+#footer-loyality{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    color: rgb(51, 0, 15);
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+#logo:hover{
+    transform: scale(1.05);
+}
+.footer-socialmediaicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1vw;
+}
+.footer-socialmediaicons>img{
+    cursor: pointer;
+    padding-right: 1vw;
+    
+}
+
+.footer-socialmediaicons>img:hover{
+    transform: scale(1.05);
+}

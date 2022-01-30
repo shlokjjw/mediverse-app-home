@@ -1,0 +1,61 @@
+.Home{
+    display: flex;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    justify-content: space-between;
+}
+
+.home-user{
+    margin-left: 5vw;
+    justify-content: center;
+}
+
+.home-question{
+    display: flex-column;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 5vh;
+}
+
+.home-doctor{
+    color: #3b9ad2;
+}
+
+.user-option{
+    display: flex;
+    margin-top: 6vh;
+    justify-content: space-around;    
+    font-weight: bold;
+}
+.user-option>div>a{
+    text-decoration: none;
+    color: white;
+}
+.user-option>div:hover{
+    
+    transform: scale(1.05);
+}
+
+.user-patient{
+    background-color: #18a0fa;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    border-radius: 24px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.user-doctor{
+    background-color: #18a0fa;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    border-radius: 24px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+#home-logo{
+    margin-right: 5vw;
+}
